@@ -14,6 +14,14 @@
  * Sources | https://www.digitalocean.com/community/tutorials/random-number-generator-c-plus-plus
  */
 
+/*
+ * Response | 3 Rules for the C++ Class
+ * 1. Do not use global variables, although you can use global constants.
+ * 2. Do not use strings. You have to use cstrings or character arrays.
+ * 3. #include <iostream>, not stdio. Use "new" and "delete" instead of
+ * "malloc" and "free."
+ */
+
 #include <iostream>
 using namespace std;
 
